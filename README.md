@@ -3,7 +3,7 @@
 
  This is GdiPlus version of [KamihimePlayer](https://github.com/BithreenGirlen/KamihimePlayer).
  
-This was deprecated because of its slow rendering though, has an advantage over Direct2D version; a bit better scaling interpolation.  
+This was deprecated because of its slow rendering though, has an advantage over Direct2D version; a bit better scaling interpolation. 
 This is left just for GpiPlus sample programme, so lacking some of the utilities implemented in Direct2D version of KamihimePlayer and never to be updated.
 
 There are two points totally different from  Direct2D version; one impoting images and another drawing a part of the image.  
