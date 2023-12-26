@@ -2,10 +2,10 @@
 2023-08-29
 
 This is GdiPlus version prototype of [KamihimePlayer](https://github.com/BithreenGirlen/KamihimePlayer).  
-Though this was deprecated because of its slow rendering speed, has the advantage of a little better scaling interpolation over Direct2D version.
+Though this was deprecated because of its slow rendering, has the advantage in better scaling interpolation over Direct2D version.
 
-There are two points totally different from Direct2D version; one the way importing images and another drawing a part of the image.  
-## Image impoting to memory
+There are two points totally different from Direct2D version; one the way loading images and another drawing part of the image.  
+## Load image to memory
 
 ``` cpp
 bool CKamihimeScenePlayer::LoadImageToMemory(const wchar_t* pzFilePath)
@@ -40,7 +40,7 @@ bool CKamihimeScenePlayer::LoadImageToMemory(const wchar_t* pzFilePath)
 }
 ```
 
-## Drawing a part of image
+## Draw part of the image
 ``` cpp
 
 bool CKamihimeScenePlayer::DisplayImage()
